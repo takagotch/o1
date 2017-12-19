@@ -1,0 +1,17 @@
+scanner/
+├── lib
+│   ├── scanner
+│   │   ├── event.rb
+│   │   ├── event_db.rb
+│   │   ├── domain_events.rb
+│   │   ├── scan_tickets_command.rb
+│   │   ├── scanner_service.rb
+│   │   ├── ticket.rb
+│   │   ├── ticket_db.rb
+│   │   └── version.rb
+│   └── scanner.rb
+├── scanner.gemspec
+└── spec
+    ├── scan_tickets_command_spec.rb
+    ├── scan_tickets_flow_spec.rb
+    └── spec_helper.rb
